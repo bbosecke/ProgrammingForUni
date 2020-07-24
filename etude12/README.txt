@@ -1,6 +1,8 @@
-Etude 8, Drawing Bus Routes
+Etude 12, Drawing Bus Routes
 
 Brodie Bosecke, 5471718
+
+This program uses the networkx package as well as matplotlib.pyplot to create the image shown in the .png file. This program highlights the shortest path in a given list of routes using dikstra's shortest path first algorithm. Lines 0 -> 261 was part of another etude to calculate the shortest path first and account for a range of errors. Lines 0 -> 261 was a group project in which Meggie Morrison (github: meggiemorrison) and Julian Fawcett (github: frusterating) contributed too. Lines 262 onwards was coded by me and is what is used to display the shortest path first
 
 Download the attached files into the same folder
 
