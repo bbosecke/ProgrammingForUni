@@ -1,11 +1,11 @@
 Etude 3: Arithmetic
 Brodie Bosecke, 5471718
 
+Arithmetic is a program where it takes two lines of input, the first being a series of numbers from 1 -> 10, the second line has two values, an answer and either N or L to determine which method to run the program in. The program will then try every possibility of addition and multiplication to reach the answer. This program uses recursion to find if the answer is possible to reach.
+
 Download the attached files into the same folder
 
 Compile both the Arith.java and ArithApp.java by running the command, "javac Arith.java" and "javac ArithApp.java". To run the program, into the command line, type "java ArithApp < test.txt", test.txt being the file you wish to run.
-
-RESUB 1: Fixed a case where if there was only one input value, and the ans == single input value, it would show impossible. Now the program correctly outputs this case 
 
 Some test cases I ran against my program to ensure the output was correct
 
