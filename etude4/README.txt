@@ -2,6 +2,11 @@ Etude 4: Counting it up
 Brodie Bosecke, 5471718
 Meggie Morrison, 7777435
 
+This program prompts the user for two integer values, n and k. The program calculates NCK and for this specific program we were not allowed to use BigInteger. Our program works by simplifying the numerator and denominator by the Greatest Common Divisor until x/1. Then x is the remaining answer.
+
+To deal with overflow (due to restrictions on BigInteger) we noticed that pascal's triangle is 'mirrored'. By making this observation, we decided that we only had to access the first half of the Pascal's triangle therefore allowing our array to never be greater than 2^32 (overflow). Lines 31-34 is only ran if(n/2 < k). (See "RESUB 4" below)
+
+
 Download the attached files into the same folder.
 
 To compile thr program, open a terminal window and cd into the directory where you downloaded the attachments. In the terminal, type 'javac Counting.java' to compile the program. To run the program, in the terminal type 'java Counting.java'
